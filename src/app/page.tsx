@@ -40,7 +40,7 @@ export default function PuttingTracker() {
     setCurrentPuttResult("")
   }
 
-  // putting accuracy percentage
+  // putting accuracy percentage yes
   const accuracy = totalPutts > 0 ? ((madePutts / totalPutts) * 100).toFixed(2) : "0.00"
 
   return (
